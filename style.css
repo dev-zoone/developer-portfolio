@@ -271,13 +271,9 @@ main {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 60% 40%;
-    padding: 130px 150px;
-    /* gap: 5rem; */
+    padding: 130px 0;
 }
-/* .contact__content__form {
-    display: flex;
-    flex-direction: column;
-} */
+
 .contact__content__inform .section-title {
     text-align: left;
     font-size: 35px;
@@ -293,11 +289,7 @@ main {
     text-align: left;
     font-size: 35px;
 }
-/* .contact__content__form .user-form {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem !important;
-} */
+
 input {
     width: 100%;
     padding: 1rem;
