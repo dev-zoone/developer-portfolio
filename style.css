@@ -217,6 +217,16 @@ main {
     padding-bottom: 1.5rem;
     border-bottom: 1px solid #D1D1D1;
 }
+.not-horizontal {
+    border-bottom: 0;
+}
+.resume-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 130px;
+}
 .education-sub-title {
     font-size: 25px;
     font-weight: 700;
