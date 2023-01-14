@@ -1,0 +1,87 @@
+
+/* developer portfolio responsive design */
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .content {
+        padding: 50px 30px
+    }
+    
+    .content-about__info-container,
+    .contact__content,
+    .section-resume {
+        display: grid;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .info-description {
+        font-size: 18px;
+    }
+    /* About Me */
+    .content-about {
+        margin: 20px;
+    }
+    /* What I Do */
+    .content-what-do {
+        padding: 50px 0;
+    }
+    .what-description {
+        margin: 2rem 2rem !important;
+        text-align: left;
+    }
+    .skills-container {
+        flex-direction: column;
+    }
+    /* contact */
+    .contact__content {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    /* header banar */
+    .header__banar {
+        margin-left: 105px;
+    }
+    .title {
+        font-size: 45px;
+    }
+    .discription-banar {
+        width: 367px;
+    }
+   
+    .content {
+        padding: 100px 50px
+    }
+    /* About Me */
+    .content-about__info-container {
+        display: grid;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* What I Do */
+    .content-what-do {
+        padding: 100px 0;
+    }
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }   
+
+    /* contact */
+    .contact__content {
+        width: 90%;
+    }
+}

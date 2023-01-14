@@ -4,6 +4,9 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.hide {
+    display: none;
+}
 /* header stard */
 .header {
     min-height: 100vh;
@@ -61,9 +64,9 @@ ul li a {
 
 /* Header Banar */
 .header__banar {
-    width: 80%;
+    width: 90%;
     height: 500px;
-    margin: 0 auto;
+    margin: 0 0 0 130px;
     display: grid;
     grid-template-columns: 60% 40%;
     box-sizing: border-box;
@@ -71,7 +74,7 @@ ul li a {
 }
 .header__banar__personal-info {
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 2rem;
@@ -84,6 +87,9 @@ ul li a {
     font-size: 85px;
     font-weight: 700;
     margin: 1rem 0;
+}
+.discription-banar {
+    width: 567px;
 }
 .description {
     font-size: 18px;
@@ -111,10 +117,10 @@ ul li a {
 
 /* MAIN SECTION START */
 
-main {
+/* main {
     width: 80%;
     margin: 0 auto;
-}
+} */
 .content {
     margin-top: 130px; 
     background: #FFF8F3;
@@ -299,17 +305,22 @@ main {
     text-align: left;
     font-size: 35px;
 }
-
-input {
+[action="user-form"] {
     width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border: none;
-    border-radius: 5px;
+    overflow: hidden;
 }
-textarea {
-    width: 461px;
-    height: 180px;
+[action="user-form"] > input {
+    width: 90%;
+    padding: 1rem 0 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+[action="user-form"] > textarea {
+    width: 90%;
+    height: 150px;
+    padding: 1rem 0 1rem 1rem;
     border: none;
 }
 .submit {
